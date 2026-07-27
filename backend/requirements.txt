@@ -3,6 +3,7 @@ uvicorn[standard]>=0.28.0
 modal>=0.62.0
 pillow>=10.0.0
 opencv-python-headless
+opencv-contrib-python
 python-multipart>=0.0.9
 python-dotenv>=1.0.1
 pydantic>=2.0.0
