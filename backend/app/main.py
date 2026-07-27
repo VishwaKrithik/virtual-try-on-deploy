@@ -1,6 +1,13 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from api.tryon import router as tryon_router
+from dotenv import load_dotenv
+
+load_dotenv()
+
+PORT = os.getenv("PORT", 8000)
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*").split(",")
 
 
 app = FastAPI(
@@ -10,7 +17,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
