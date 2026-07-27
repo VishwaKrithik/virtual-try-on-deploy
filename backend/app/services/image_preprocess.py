@@ -6,7 +6,7 @@ from PIL import Image, ImageFilter
 
 class ImagePreprocessor:
     def __init__(self):
-        self.face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+        self.face_cascade = cv2.CascadeClassifier("app/services/haarcascade_frontalface_default.xml")
 
     def _resize_person_image(self, person_raw: Image.Image):
         person_raw = person_raw.convert("RGB")
