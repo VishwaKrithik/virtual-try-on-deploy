@@ -3,9 +3,9 @@ from fastapi.responses import Response
 from PIL import Image
 from io import BytesIO
 
-from utils.image_utils import pil_to_base64, bytes_to_base64
-from services.inference import VTONInferenceService
-from schemas.tryon import TryOnResponse
+from app.utils.image_utils import pil_to_base64, bytes_to_base64
+from app.services.inference import VTONInferenceService
+from app.schemas.tryon import TryOnResponse
 
 
 router = APIRouter()

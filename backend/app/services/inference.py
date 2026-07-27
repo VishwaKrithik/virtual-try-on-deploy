@@ -1,7 +1,7 @@
 import io
 import modal
 from PIL import Image
-from services.image_preprocess import (
+from app.services.image_preprocess import (
     ImagePreprocessor
 )
 
