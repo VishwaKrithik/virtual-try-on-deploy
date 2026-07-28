@@ -209,10 +209,10 @@ Generated Output
 
 ## Author
 
-**Vishwa Krithik S**
-**Sandeep Vijay**
-**Shreya Venghatesh**
-**Vishnu Charan M**
+- **Vishwa Krithik S**
+- **Sandeep Vijay**
+- **Shreya Venghatesh**
+- **Vishnu Charan M**
 
 AI & Data Science Undergraduate
 
