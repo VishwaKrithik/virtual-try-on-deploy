@@ -220,7 +220,7 @@ Generated Output
 - **Shreya Venghatesh**
 - **Vishnu Charan M**
 
-AI & Data Science Undergraduate
+AI & Data Science Undergraduates
 
 Interested in Artificial Intelligence, Computer Vision, and Generative AI.
 
