@@ -209,7 +209,10 @@ Generated Output
 
 ## Author
 
-**Srihari Kothandapani**
+**Vishwa Krithik S**
+**Sandeep Vijay**
+**Shreya Venghatesh**
+**Vishnu Charan M**
 
 AI & Data Science Undergraduate
 
