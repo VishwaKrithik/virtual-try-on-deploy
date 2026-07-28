@@ -193,7 +193,13 @@ Response
 
 ## Screenshots
 
-> Add screenshots or GIFs of the application here.
+![Image1](outputs/1.jpeg)
+
+![Image2](outputs/2.jpeg)
+
+![Image3](outputs/3.jpeg)
+
+![Image4](outputs/4.jpeg)
 
 Example:
 
